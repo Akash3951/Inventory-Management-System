@@ -40,4 +40,5 @@ def product_delete_view(request, product_id):
     product = Product.objects.get(product_id=product_id)
     if request.method == 'POST':
         product.delete()
+        return redirect('product_list')
     return render(request, 'invApp/product_confirm_delete.html', {'product':product})
