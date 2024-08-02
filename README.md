@@ -1,4 +1,5 @@
 #Inventory-Management-System
+
 Welcome to the Inventory Management System! This full-stack Django application helps you manage and keep track of all the products stored in a store. It provides a complete CRUD (Create, Read, Update, Delete) functionality, allowing users to: Add new products View the list of existing products Update product details Delete products
 
 #Steps for project setup
